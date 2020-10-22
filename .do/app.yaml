@@ -1,0 +1,8 @@
+name: do-main-page
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: janobono/do-main-page
+  name: do-main-page
